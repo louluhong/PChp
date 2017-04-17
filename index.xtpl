@@ -1,0 +1,195 @@
+<div class="module-wrap J_tb_lazyload">
+	<textarea class="J_conf dataText" style="display:none;">{{$env.JSON.stringify(this)}}</textarea>
+	<div class="by_site" style="display: none;">
+    	<div class="by_990">
+    		<ul class="site_ul">
+    			<li class="site_li li1">
+    				<a href="javascript:void(0)">边看边买</a>
+    			</li>
+    			<li class="site_li li2"><a href="javascript:void(0)">品牌代言</a></li>
+    			<li class="site_li li3"><a href="javascript:void(0)">功能演示</a></li>
+    			<li class="site_li li4"><a href="javascript:void(0)">直播发布会</a></li>
+    		</ul>
+    	</div>
+    </div>
+	<div class="fullpage-wrap">
+        <div class="fullpage-inner" id="by-page">
+            <!--第一屏 视频-->
+            <div class="by-mypage page1 fullpage-module video_a first">
+            	<div class="by_title">
+            		<img src="https://gw.alicdn.com/tps/TB1MipkMpXXXXbIaXXXXXXXXXXX-990-169.png" alt="" class="font1">
+            	</div>
+            	<div class="by_video video_c" data-vid='{{moduleinfo.page1_vid}}' data-uid='{{moduleinfo.page1_uid}}'>
+            		<img src="https://gw.alicdn.com/tps/TB1muVeMpXXXXaXapXXXXXXXXXX-860-414.png" alt="">
+            		<img src="{{moduleinfo.page_img1}}" alt="" class="byv_r video_img1">
+            		<div class="byv_r dsn" data-vid='{{moduleinfo.page1_vid}}' data-uid='{{moduleinfo.page1_uid}}'>
+            			<div class="byv">
+	            			<div class="video_con" id="videobox">
+	            			
+	            			</div>
+	            		</div>
+            		</div>
+            	</div>
+            	<div class="by_btn">
+            		<img src="https://gw.alicdn.com/tps/TB1dOdkMpXXXXbtaXXXXXXXXXXX-990-87.png" alt="">
+            		<a href="{{moduleinfo.btn}}" target="_blank" class="btn_img"></a>
+            	</div>
+            </div>
+            
+            <!--第二屏 视频-->
+            <div class="by-mypage page2 fullpage-module a video_a" data-z='z'>
+            	<div class="by_w990">
+            		<div class="by_video1">
+            			<img data-ks-lazyload="https://gw.alicdn.com/tps/TB1Y9pLMpXXXXcfXXXXXXXXXXXX-337-680.png" alt="" class="video_img3">
+            		</div>
+            		<div class="by_video2 video_c" data-vid='{{moduleinfo.page2_vid}}' data-uid='{{moduleinfo.page2_uid}}'>
+            			<img data-ks-lazyload="{{moduleinfo.page_img2}}" alt="" class="byv_r video_img1">
+            			<div class="byv_r dsn" data-vid='{{moduleinfo.page2_vid}}' data-uid='{{moduleinfo.page2_uid}}'>
+            				<div class="byv">
+            					<div class="video_con" id="videobox1">
+            				
+            					</div>
+            				</div>
+            			</div>
+            		</div>
+            		<div class="by_btn">
+            			<img src="https://gw.alicdn.com/tps/TB1csJqMpXXXXcWXVXXXXXXXXXX-548-210.png" alt="">
+						<a href="{{moduleinfo.btn}}" target="_blank" class="btn_img"></a>
+            		</div>
+            	</div>
+            	<div class="zk_btn"></div>
+            </div>
+            <!--第三屏-->
+            <div class="by-mypage page3 fullpage-module b" style="display: none;">
+            	<div class="by_w990">
+            		<img data-ks-lazyload="https://gw.alicdn.com/tps/TB1jXxLMpXXXXcrXXXXXXXXXXXX-990-919.jpg" alt="">
+            	</div>
+            	<div class="zk_btn"></div>
+            </div>
+            <!--第四屏 视频-->
+            <div class="by-mypage page4 fullpage-module a video_a" data-z='z'>
+                <div class="by_w990">
+                	<div class="by_left">
+                		<img data-ks-lazyload="https://gw.alicdn.com/tps/TB12aRMMpXXXXchXXXXXXXXXXXX-314-468.png" alt="" usemap="#Map1">
+						<map name="Map1">
+						  <area shape="rect" coords="5,421,248,466" href="{{moduleinfo.btn}}" target="_blank">
+						</map>
+                	</div>
+                	<div class="by_right">
+                		<img data-ks-lazyload="https://gw.alicdn.com/tps/TB1xFFCMpXXXXakXFXXXXXXXXXX-596-753.png" alt="" class="right_img1">
+                		<img data-ks-lazyload="https://gw.alicdn.com/tps/TB1kMiEMpXXXXbAXFXXXXXXXXXX-266-459.jpg" alt="" class="right_img2">
+                		<div class="by_video2 video_c" data-vid='{{moduleinfo.page3_vid}}' data-uid='{{moduleinfo.page3_uid}}'>
+                			<img data-ks-lazyload="{{moduleinfo.page_img3}}" alt="" class="byv_r video_img1">
+	            			<div class="byv_r dsn" data-vid='{{moduleinfo.page3_vid}}' data-uid='{{moduleinfo.page3_uid}}'>
+	            				<div class="byv">
+	            					<div class="video_con" id="videobox2">
+	            				
+	            					</div>
+	            				</div>
+	            			</div>
+	            		</div>
+                	</div>
+                </div>
+                <div class="zk_btn"></div>
+            </div>
+            <!--第五屏-->
+            <div class="by-mypage page5 fullpage-module b" style="display: none;">
+            	<img data-ks-lazyload="https://gw.alicdn.com/tps/TB1pZVkMpXXXXcbaXXXXXXXXXXX-1192-648.jpg" alt="" class="img_con">
+            	<img data-ks-lazyload="https://gw.alicdn.com/tps/TB18lFvMpXXXXXYXVXXXXXXXXXX-36-18.png" alt="" class="by_jd">
+            	<div class="zk_btn"></div>
+            </div>
+            <!--第六屏 视频-->
+            <div class="by-mypage page6 fullpage-module a video_a" data-z='z'>
+                <div class="by_w990">
+                	<img data-ks-lazyload="https://gw.alicdn.com/tps/TB196RwMpXXXXXYXVXXXXXXXXXX-400-731.png" alt="" class="by_img">
+                	<img data-ks-lazyload="https://gw.alicdn.com/tps/TB1aGBvMpXXXXahXVXXXXXXXXXX-314-518.png" alt="" usemap="#Map2" class="by_font">
+					<map name="Map2">
+					  <area shape="rect" coords="3,472,247,517" href="{{moduleinfo.btn}}" target="_blank">
+					</map>
+                	<div class="by_video2 video_c" data-vid='{{moduleinfo.page4_vid}}' data-uid='{{moduleinfo.page4_uid}}'>
+                		<img data-ks-lazyload="{{moduleinfo.page_img4}}" alt="" class="byv_r video_img1">
+            			<div class="byv_r dsn" data-vid='{{moduleinfo.page4_vid}}' data-uid='{{moduleinfo.page4_uid}}'>
+            				<div class="byv">
+            					<div class="video_con" id="videobox3">
+            				
+            					</div>
+            				</div>
+            			</div>
+            		</div>
+                </div>
+                <div class="zk_btn"></div>
+            </div>
+            <!--第七屏-->
+            <div class="by-mypage page7 fullpage-module b" style="display: none;">
+            	<div class="by_w990">
+            		<img data-ks-lazyload="https://gw.alicdn.com/tps/TB1BUlrMpXXXXb.XVXXXXXXXXXX-990-920.jpg" alt="">
+            	</div>
+            	<div class="zk_btn"></div>
+            </div>
+            <!--第八屏-->
+            <div class="by-mypage page8 fullpage-module a">
+                <div class="by_w990">
+                	<img data-ks-lazyload="https://gw.alicdn.com/tps/TB1PIRzMpXXXXcdXFXXXXXXXXXX-615-885.png" alt="" class="img_right">
+                	<img data-ks-lazyload="https://gw.alicdn.com/tps/TB1qJ8EMpXXXXcQXpXXXXXXXXXX-251-320.png" alt="" usemap="#Map3" class="font_left">
+					<map name="Map3">
+					  <area shape="rect" coords="-1,273,245,320" href="{{moduleinfo.btn}}" target="_blank">
+					</map>
+                </div>
+                <div class="zk_btn"></div>
+            </div>
+            <!--第九屏-->
+            <div class="by-mypage page9 fullpage-module b" style="display: none;">
+                <div class="by_w990">
+            		<img data-ks-lazyload="https://gw.alicdn.com/tps/TB1Z3XIMpXXXXaMXpXXXXXXXXXX-990-920.jpg" alt="">
+            	</div>
+            	<div class="zk_btn"></div>
+            </div>
+            <!--第十屏-->
+            <div class="by-mypage page10 fullpage-module">
+                <div class="by_w990">
+                	<img data-ks-lazyload="https://gw.alicdn.com/tps/TB1zd4EMpXXXXXBXFXXXXXXXXXX-990-154.png" alt="" class="by_font">
+                	<img data-ks-lazyload="https://gw.alicdn.com/tps/TB1.vx7MpXXXXbRXXXXXXXXXXXX-32-62.png" alt="" class="by_next next">
+					<img data-ks-lazyload="https://gw.alicdn.com/tps/TB1HbtQMpXXXXbfXFXXXXXXXXXX-32-61.png" alt="" class="by_prev prev">
+					
+                	<div class="J_tab">
+						<div class="slide_ul clear tab-content">
+							{{#each(items)}}
+							<div class="slide_li tab-pannel" data->
+								<div style="width: 460px" class="rq">
+									<a href="{{video_btn}}" target="_blank"><span class="slide_name">{{video_group}}</span></a>
+								</div>
+								<img data-ks-lazyload="{{video_img}}" alt="" class="video_img">
+								<!-- <video src=""></video> -->
+								<div class="page10_video" data-vid='{{vid}}' data-uid='{{uid}}'>
+									<div class="div_video">
+										<div id="by_vb{{xindex}}" class="by_vb_class">
+										
+										</div>
+									</div>
+									
+								</div>
+								<a href="{{video_btn}}" target="_blank" class="video_title">{{video_title}}</a>
+							</div>
+							{{/each}}
+						</div>
+					</div>
+                </div>
+            </div>
+            <!--第十一屏-->
+            <div class="by-mypage page11 fullpage-module">
+            	<div class="by_w990">
+            		<img data-ks-lazyload="https://gw.alicdn.com/tps/TB1pAGeMpXXXXXfXFXXXXXXXXXX-990-920.jpg" alt="" usemap="#Map4">
+					<a href="{{moduleinfo.font_btn1}}" target="_blank" class="btn_img1"></a>
+					<a href="{{moduleinfo.font_btn2}}" target="_blank" class="btn_img2"></a>
+					<a href="{{moduleinfo.font_btn3}}" target="_blank" class="btn_img3"></a>
+					<a href="{{moduleinfo.font_btn4}}" target="_blank" class="btn_img5"></a>
+					<a href="{{moduleinfo.btn}}" target="_blank" class="btn_img4"></a>
+            	</div>
+                
+            </div>
+        </div>
+    </div> 
+</div>
+<div align="center" style='display:none'>
+<script src="//s11.cnzz.com/z_stat.php?id=1258527443&web_id=1258527443" language="JavaScript"></script>
+</div>

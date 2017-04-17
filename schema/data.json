@@ -1,0 +1,139 @@
+{
+  "title": "schema名称",
+  "type": "object",
+  "properties": {
+    "moduleinfo": {
+      "type": "object",
+      "title": "模块配置信息",
+      "properties": {
+        "btn": {
+          "type": "string",
+          "title": "立即申请免费试用 链接"
+        },
+        "page_img1": {
+          "type": "string",
+          "title": "第一屏视频封面"
+        },
+        "page1_vid": {
+          "type": "string",
+          "title": "第一屏视频 vid"
+        },
+        "page1_uid": {
+          "type": "string",
+          "title": "第一屏视频 uid"
+        },
+        "page_img2": {
+          "type": "string",
+          "title": "第二屏视频 封面"
+        },
+        "page2_vid": {
+          "type": "string",
+          "title": "第二屏视频 vid"
+        },
+        "page2_uid": {
+          "type": "string",
+          "title": "第二屏视频uid"
+        },
+        "page_img3": {
+          "type": "string",
+          "title": "第三屏视频 封面"
+        },
+        "page3_vid": {
+          "type": "string",
+          "title": "第三屏视频vid"
+        },
+        "page3_uid": {
+          "type": "string",
+          "title": "第三屏视频uid"
+        },
+        "page_img4": {
+          "type": "string",
+          "title": "第四屏视频封面"
+        },
+        "page4_vid": {
+          "type": "string",
+          "title": "第四屏视频 uid"
+        },
+        "page4_uid": {
+          "type": "string",
+          "title": "第四屏视频 vid"
+        },
+        "font_btn1": {
+          "type": "string",
+          "title": "无线运营中心 链接"
+        },
+        "font_btn2": {
+          "type": "string",
+          "title": "天猫商家中心-发布商品"
+        },
+        "font_btn3": {
+          "type": "string",
+          "title": "无线运营中心-微淘"
+        }
+      }
+    },
+    "optioninfo": {
+      "type": "object",
+      "title": "选项配置",
+      "properties": {
+        "dynamic": {
+          "type": "string",
+          "title": "false代表禁止动态输出",
+          "default": "true"
+        },
+        "static": {
+          "type": "string",
+          "title": "false代表禁止静态输出",
+          "default": "true"
+        }
+      }
+    },
+    "items": {
+      "type": "array",
+      "title": "视频轮播",
+      "items": {
+        "type": "object",
+        "title": "这是数组的某个成员",
+        "allOf": [
+          {
+            "$ref": "TMS/item_promo",
+            "required": [
+              "vid",
+              "uid",
+              "video_img",
+              "video_title",
+              "video_group",
+              "video_btn"
+            ]
+          }
+        ],
+        "properties": {
+          "vid": {
+            "type": "string",
+            "title": "视频轮播的（视频VID）"
+          },
+          "uid": {
+            "type": "string",
+            "title": "视频轮播的（视频UID）"
+          },
+          "video_img": {
+            "type": "string",
+            "title": "视频轮播的图片"
+          },
+          "video_title": {
+            "type": "string",
+            "title": "标题"
+          },
+          "video_group": {
+            "type": "string",
+            "title": "分组名"
+          },
+          "video_btn": {
+            "type": "string",
+            "title": "链接"
+          }
+        }
+      }
+    }
+  }
+}
